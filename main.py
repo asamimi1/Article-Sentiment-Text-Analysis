@@ -24,6 +24,5 @@ def outcome(sentiment):
         return "positive"
     
 outcome = outcome(sentiment)
-    
 
 print(f"\nThis article is {outcome} ({sentiment}).")
