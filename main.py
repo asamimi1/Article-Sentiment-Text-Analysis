@@ -10,7 +10,7 @@ article.parse()
 article.nlp()
 
 text = article.summary
-print(text)
+print(f"\n{text}")
 
 blob = TextBlob(text)
 sentiment = blob.sentiment.polarity # -1 to 1
